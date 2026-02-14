@@ -8,7 +8,7 @@ const startBtn = document.getElementById("startBtn");
 const stopBtn = document.getElementById("stopBtn");
 const clearBtn = document.getElementById("clearBtn");
 
-const GEMINI_MODELS = ["gemini-2.0-flash", "gemini-1.5-flash-latest"];
+const GEMINI_MODELS = ["gemini-3-flash-preview"];
 
 const state = {
   recognition: null,

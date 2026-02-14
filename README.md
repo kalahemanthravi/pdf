@@ -14,7 +14,7 @@ A browser-based voice assistant that supports wake/sleep mode, deterministic com
 - AI answers for knowledge questions (fallback when local parser cannot handle command)
 - Last 3 conversation turns sent as context to AI
 - Duplicate command suppression and self-echo protection to avoid loops
-- Uses `gemini-2.0-flash` first, with fallback to `gemini-1.5-flash-latest`
+- Uses `gemini-3-flash-preview` for AI command planning and answers
 
 ## Why this avoids loop/duplicate issues
 
