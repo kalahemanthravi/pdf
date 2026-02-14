@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friday Voice Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Friday Voice Assistant</h1>
+      <p class="subtitle">
+        Say <strong>"Friday"</strong> to wake, and <strong>"go to sleep"</strong>
+        to pause command handling.
+      </p>
+
+      <section class="panel controls">
+        <label>
+          Google AI Studio API Key
+          <input id="apiKey" type="password" placeholder="Paste your Gemini API key" />
+        </label>
+        <div class="row">
+          <button id="startBtn">Start Listening</button>
+          <button id="stopBtn">Stop Listening</button>
+          <button id="clearBtn" class="secondary">Clear Logs</button>
+        </div>
+        <p id="status" class="status">Status: idle</p>
+      </section>
+
+      <section class="panel">
+        <h2>Session</h2>
+        <ul id="log" class="log"></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Examples</h2>
+        <ul>
+          <li>Friday</li>
+          <li>Open YouTube</li>
+          <li>Search YouTube for trending tech</li>
+          <li>Play song Blinding Lights</li>
+          <li>Set timer for 2 minutes</li>
+          <li>Start stopwatch / stop stopwatch / reset stopwatch</li>
+          <li>Database search YouTube for lo-fi coding music</li>
+          <li>What is the Tyndall effect?</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
